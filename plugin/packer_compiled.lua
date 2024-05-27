@@ -87,7 +87,7 @@ _G.packer_plugins = {
   ["clipboard-image.nvim"] = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/clipboard-image.nvim",
-    url = "https://github.com/ekickx/clipboard-image.nvim"
+    url = "https://github.com/jarossnd/clipboard-image.nvim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
