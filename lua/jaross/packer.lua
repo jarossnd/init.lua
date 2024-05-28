@@ -44,4 +44,29 @@ return require('packer').startup(function(use)
   use({"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"})
   use("nvim-treesitter/playground")
 
+
+use {'nvim-orgmode/orgmode', config = function()
+  require('orgmode').setup{}
+end
+}
+
+use {
+  'VonHeikemen/fine-cmdline.nvim',
+  requires = {
+    {'MunifTanjim/nui.nvim'}
+  }
+}
+
+
+use {
+  "startup-nvim/startup.nvim",
+  requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+  config = function()
+    require"startup".setup()
+  end
+}
+
+use {'vimwiki/vimwiki'}
+
+
 end)

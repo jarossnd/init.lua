@@ -18,3 +18,5 @@ vim.keymap.set('i', 'jj', '<ESC>')
 vim.keymap.set('i', 'jk', '<ESC>')
 
 vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/jaross/packer.lua<CR>");
+
+vim.api.nvim_set_keymap('n', ':', '<cmd>FineCmdline<CR>', {noremap = true})
