@@ -10,6 +10,9 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
+vim.opt.spelllang = 'en_us'
+vim.opt.spell = true
+
 --- colorscheme catppuccin, catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-moch
 vim.cmd.colorscheme "catppuccin"
 

@@ -45,18 +45,12 @@ return require('packer').startup(function(use)
   use("nvim-treesitter/playground")
 
 
-use {'nvim-orgmode/orgmode', config = function()
-  require('orgmode').setup{}
-end
-}
-
 use {
   'VonHeikemen/fine-cmdline.nvim',
   requires = {
     {'MunifTanjim/nui.nvim'}
   }
 }
-
 
 use {
   "startup-nvim/startup.nvim",
