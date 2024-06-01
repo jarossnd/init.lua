@@ -62,5 +62,7 @@ use {
 
 use {'vimwiki/vimwiki'}
 
+use {'dhruvasagar/vim-open-url'}
+
 
 end)

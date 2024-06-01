@@ -150,6 +150,11 @@ _G.packer_plugins = {
     path = "/root/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["vim-open-url"] = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/vim-open-url",
+    url = "https://github.com/dhruvasagar/vim-open-url"
+  },
   vimwiki = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/vimwiki",
