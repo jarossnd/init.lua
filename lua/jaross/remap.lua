@@ -27,8 +27,9 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/jaross/packer.lua<CR>");
 
-vim.api.nvim_set_keymap('n', ':', '<cmd>FineCmdline<CR>', {noremap = true})
-
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
+
+--- Remap enter for fine-cmdline
+vim.api.nvim_set_keymap('n', '<CR>', '<cmd>FineCmdline<CR>', {noremap = true})
