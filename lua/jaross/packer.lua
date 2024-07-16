@@ -74,11 +74,11 @@ use({
       workspaces = {
         {
           name = "personal",
-          path = "~/vaults/personal",
+          path = "~/personal-obsidian",
         },
         {
           name = "work",
-          path = "~/vaults/work",
+          path = "/mnt/c/Users/jaross/OneDrive - Microsoft/msft-obsidian",
         },
       },
 
