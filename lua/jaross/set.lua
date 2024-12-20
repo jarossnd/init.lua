@@ -16,4 +16,6 @@ vim.opt.spell = true
 --- colorscheme catppuccin, catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-moch
 vim.cmd.colorscheme "catppuccin"
 
-
+vim.g.vimwiki_list = {{
+  path = '/mnt/c/Users/jaross/Onedrive - Microsoft/wsl/wiki/',
+}}
