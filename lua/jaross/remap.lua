@@ -25,7 +25,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
-vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/jaross/packer.lua<CR>");
+vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles-work/nvim/.config/nvim/lua/jaross/packer.lua<CR>");
 
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")

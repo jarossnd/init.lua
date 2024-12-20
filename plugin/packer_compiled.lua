@@ -49,8 +49,13 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
+<<<<<<< Updated upstream
 local package_path_str = "/root/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?.lua;/root/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?/init.lua;/root/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?.lua;/root/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?/init.lua"
 local install_cpath_pattern = "/root/.cache/nvim/packer_hererocks/2.1.1703358377/lib/lua/5.1/?.so"
+=======
+local package_path_str = "/home/jason/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?.lua;/home/jason/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?/init.lua;/home/jason/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?.lua;/home/jason/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/jason/.cache/nvim/packer_hererocks/2.1.1703358377/lib/lua/5.1/?.so"
+>>>>>>> Stashed changes
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
